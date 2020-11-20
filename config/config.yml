@@ -8,16 +8,16 @@ global:
     - ipmi-chassis
     - ipmi-dcmi
 
-targets:
-  - host: 192.168.44.12
-    user: root
-    pwd: yftian
-  - host: 192.168.44.13
-    user: root1
-    pwd: yftian2
-  - host: 192.168.44.14
-    user: root1
-    pwd: yftian2
-  - host: 192.168.44.15
-    user: root1
-    pwd: yftian2
+targ2ets:
+           - host: 192.168.44.12
+             user: root
+             pwd: yftian
+           - host: 192.168.44.13
+             user: root1
+             pwd: yftian2
+           - host: 192.168.44.14
+             user: root1
+             pwd: yftian2
+           - host: 192.168.44.15
+             user: root1
+             pwd: yftian
